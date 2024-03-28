@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Mio Negozio Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Benvenuti nel Mio Negozio Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Prodotti</a></li>
+                <li><a href="#">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="products">
+            <h2>I Nostri Prodotti</h2>
+            <div class="product">
+                <img src="product1.jpg" alt="Prodotto 1">
+                <h3>Prodotto 1</h3>
+                <p>Descrizione breve del prodotto 1.</p>
+                <span class="price">€19.99</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Prodotto 2">
+                <h3>Prodotto 2</h3>
+                <p>Descrizione breve del prodotto 2.</p>
+                <span class="price">€24.99</span>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Aggiungere più prodotti qui -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Il Mio Negozio Online</p>
+    </footer>
+</body>
+</html>
